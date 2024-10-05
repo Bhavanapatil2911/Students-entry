@@ -8,5 +8,5 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
     provideStore() // Include the root reducer here
-  ]
+  ] 
 };
